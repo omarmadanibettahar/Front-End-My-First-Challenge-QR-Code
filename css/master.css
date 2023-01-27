@@ -15,7 +15,7 @@ body {
 .container {
     position: absolute;
     width: 1440px;
-    height: 750px;
+    height: 710px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -23,12 +23,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 21px 20px 10px #c3c3c380;
+    box-shadow: 0 21px 20px 12px #c3c3c380;
 }
 
 .qr-code {
-    width: 330px;
-    height: 520px;
+    width: 340px;
+    height: 510px;
     padding: 15px;
     border-radius: 12px;
     background-color: hsl(0, 0%, 100%);
@@ -40,8 +40,8 @@ body {
 }
 
 img {
-    width: 300px;
-    height: 300px;
+    width: 308px;
+    height: 308px;
     border-radius: 10px;
 }
 
@@ -51,7 +51,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 14px;
 }
 
 .container .qr-code .content .bold-weight {
@@ -60,12 +60,12 @@ img {
     color: hsl(218, 44%, 22%);
 }
 .container .qr-code .content .light-weight {
-    padding: 0 8px;
-    margin-top: 20px;
+    padding: 0 10px;
+    margin-top: 25px;
     font-size: 15px;
     font-weight: 400;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 @media (min-width: 375px) And (max-width: 1079px) {
